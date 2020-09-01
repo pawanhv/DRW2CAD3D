@@ -7,5 +7,15 @@ Note: This project is meant as a proof-of-concept; the model isn't (yet) built t
 
 For detailed capabilities of this code refer to the documentation.
 
+## Setup
+### Prerequisites
 
+- Python 3 (not compatible with python 2)
+- pip
+
+### Install dependencies
+
+```sh
+pip install -r requirements.txt
+```
 
