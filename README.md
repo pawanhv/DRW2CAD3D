@@ -1,12 +1,11 @@
-# DRW2CAD3D
-Generate 3D models from 2D drawings
+# LoRaAlert
+Generate alert messages by looking at images from a surveillance camera using deep learning algorithms and later send message through LoRa Networks.
 
-DRW2CAD3D is a deep learning model that takes in 2D drawings as input and converts them into a 3D CAD model that can be exported in Standard exchange format STEP or STL. It uses an image captioning architecture to generate an intermediate domain specific language which is later converted to CAD software specific macros.
+One of the biggest drawbacks of LoRa network is its bandwidth and sending images through LoRa is practically not feasable. 
 
-## Why is it important?
-As a mechanical engineer, I have sometimes asked CAD designers to manually create a 3D CAD model of some electronic components from its datasheet. I launched this project to automate this process so CAD designers can really concentrate on their real job of creating CAD design of their products in developement. 
+LoRaAlert is a deep learning model that takes in images as input and converts them into a text message that can be exported and later broadcasted through low bandwith networks like LoRa. It uses an image captioning architecture to generate an intermediate domain specific language which is later converted to Human understandable language.
 
-Note: This project is meant as a proof-of-concept; the model isn't (yet) built to generalize to the variability of sketches seen in actual use case, and thus its performance relies on sketches resembling the core dataset.
+Note: This project is meant as a proof-of-concept; the model isn't built to generalize to the variability of images as seen in real  situations, and currently only simple use-cases are implemented.
 
 For detailed capabilities of this code refer to the documentation.
 
